@@ -1,0 +1,6 @@
+<p class="control">
+  <label for="{{ label() }}">{{
+    label()[0].toUpperCase() + label().substring(1)
+  }}</label>
+  <ng-content select="[input,textarea]" />
+</p>
